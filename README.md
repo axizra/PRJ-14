@@ -1,6 +1,8 @@
 # PRJ-14 Repository Readme
 Project Description
-Welcome to the PRJ-14 GitHub repository! This repository contains the project files related to PRJ-14, and it is intended to help organize and manage the development of this project. Please make sure to follow the guidelines and instructions provided in this readme to maintain consistency and clarity within the repository.
+Welcome to the PRJ-14 GitHub repository! This repository serves as a hub for sharing project files related to PRJ-14, with the primary goal of broadening knowledge and fostering collaboration. Whether you're a team member, contributor, or simply interested in the project, you'll find valuable resources here to understand and participate in PRJ-14's development.
+
+Please make sure to follow the guidelines and instructions provided in this readme to maintain consistency and clarity within the repository. Your contributions and engagement in this project are highly encouraged as they contribute to the collective knowledge.
 
 Project Files
 File Naming Convention
