@@ -2,7 +2,8 @@ import phonenumbers
 from phonenumbers import geocoder, carrier, timezone
 import folium
 from opencage.geocoder import OpenCageGeocode
-key = "98b349e80c254fb1801322452c6eb0af"
+#The API mentioned in the code should be kept private according to the PRJ-14 guidelines 
+key = "98b349e80c254fb1801322452c6eb0af" 
 number = input("Enter the phone number with country code: \n")
 num_track = phonenumbers.parse(number)
 location = geocoder.description_for_number(num_track, "en")
