@@ -68,7 +68,10 @@ class login_user():
                     vals = (customer_id, name, address, email)
                     cursor.execute(sql, vals)
                 con.commit()
-                congrats_win()
+                if name and address and email and used_ids:
+                    congrats_win()
+                elif not name or address or email or used_ids:
+                    messagebox.showinfo("Invalid", "Please enter all the details")
             except pymysql.Error as e:
                 messagebox.showinfo("Database Error", str(e))
 
